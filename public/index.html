@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoArena</title>
+    <style>
+        /* Simple styling for the game grid */
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to AlgoArena</h1>
+    <table id="gameGrid">
+        <!-- Dynamically generated grid will appear here -->
+    </table>
+
+    <div id="message"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
